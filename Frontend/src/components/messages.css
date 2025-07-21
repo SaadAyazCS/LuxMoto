@@ -1,0 +1,72 @@
+/* messages.css */
+
+.messages-container {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.messages-heading {
+  font-size: 50px;
+  color: #00bcd4;
+  margin-bottom: 30px;
+}
+
+.messages-table {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #444;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.messages-table th,
+.messages-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #333;
+  color: #bfe5ef;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.messages-table th {
+  background-color: #222;
+  color: #00bcd4;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.messages-table td:last-child,
+.messages-table th:last-child {
+
+  text-align: center; /* ✅ Center the delete button */
+  
+}
+
+.no-messages {
+  color: #aaa;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.delete-btn {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}

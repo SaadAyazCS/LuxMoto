@@ -1,0 +1,106 @@
+/* carlist.css */
+
+.car-list-section {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  border-radius: 16px;
+  margin: 20px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.car-list-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 198, 255, 0.3);
+}
+
+.car-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.car-card {
+  background-color: #111;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 25px 20px;
+  border-radius: 16px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 198, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 198, 255, 0.2);
+}
+
+.car-model {
+  font-size: 20px;
+  color: #bfe5ef;
+  margin-bottom: 10px;
+}
+
+.car-card p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #cccccc;
+}
+
+.availability.available {
+  color: #28c76f;
+}
+
+.availability.unavailable {
+  color: #ff4d4f;
+}
+
+.loading-msg {
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .car-card {
+    width: 240px;
+  }
+
+  .car-list-title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .car-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .car-card {
+    width: 90%;
+  }
+
+  .car-list-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .car-list-title {
+    font-size: 20px;
+  }
+
+  .car-card {
+    padding: 20px 15px;
+  }
+
+  .car-card p {
+    font-size: 13px;
+  }
+}

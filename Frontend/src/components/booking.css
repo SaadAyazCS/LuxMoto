@@ -1,0 +1,94 @@
+.booking-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1f1f1f 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.booking-box {
+  background-color: #111;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(191, 229, 239, 0.15);
+  width: 100%;
+  max-width: 450px;
+}
+
+.booking-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #bfe5ef;
+  text-align: center;
+  text-shadow: 1px 1px 4px #0e0e0e;
+}
+
+.booking-title span {
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #ccc;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  margin-bottom: 5px;
+  outline: none;
+  font-size: 15px;
+  transition: border 0.2s ease;
+}
+
+input:focus {
+  border: 1px solid #bfe5ef;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #bfe5ef;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9bd5e3;
+}
+
+@media screen and (max-width: 480px) {
+  .booking-box {
+    padding: 25px;
+  }
+
+  .booking-title {
+    font-size: 22px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
