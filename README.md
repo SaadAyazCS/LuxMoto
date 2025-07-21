@@ -37,7 +37,7 @@ This application was developed as part of the **Web Application Development** co
 
 - **Frontend:** React.js, Axios, React Router DOM, CSS (custom + Bootstrap)
 - **Backend:** Node.js, Express.js, MongoDB Atlas, Mongoose, JWT, Bcrypt
-- **Tools:** Postman, Git, Vercel/Netlify (frontend deploy), Render/Railway (backend deploy)
+- **Tools:** Postman, Git
 
 ---
 
